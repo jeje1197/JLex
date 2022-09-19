@@ -7,3 +7,13 @@ program that takes in a list of regular expressions and token types to convert t
 into then returns a lexer object which you can then use to turn a string into a list of tokens.
 Lexer generators are nice because they generate the code to tokenize a string for you.
 
+
+# lexer_generator.py
+
+This is the source code for the projects. Feel free to examine it to see how it generates rules from
+the (regex, token_type) tuples you pass it.
+
+# test.py
+
+This is a test file where I load in some rules and check if the resulting lexer
+can produce a list of properly formatted tokens.
